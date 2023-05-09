@@ -32,4 +32,7 @@ const JoinSchema = new Schema({
     },
 });
 
-module.exports = mongoose.model('form', JoinSchema);
+
+const Regform = mongoose.model('form',JoinSchema);
+Regform.createIndexes();
+module.exports= Regform
