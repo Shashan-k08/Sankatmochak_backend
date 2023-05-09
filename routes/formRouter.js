@@ -1,5 +1,6 @@
 const router = require('express').Router();
-const {volregform}=require('../controllers/regForm');
-router.route('/volregform')
-.post(volregform)
+const {reguser}=require('../controllers/regForm');
+router.post('/reguser',reguser)
+
+ 
 module.exports=router;

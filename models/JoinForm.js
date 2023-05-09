@@ -22,11 +22,7 @@ const JoinSchema = new Schema({
         type: Number,
         required: true
     },
-    auth_type: {
-        type: String,
-        required: true
-    },
-    auth_number: {
+    about: {
         type:String,
         required:true
     },
